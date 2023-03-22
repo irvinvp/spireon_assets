@@ -10,6 +10,10 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -24,13 +28,34 @@
             Inserta los datos de la integración para obtener la lista de
             equipos.
           </p>
-          <p>
-            Estos datos son obtenidos en base a una petición de información
-            presente en el <strong>WS de integración de Spireon</strong>, para
-            ser usado en el
-            <strong>registro manual de los dispositivos en CC</strong> por parte
-            del interesado.
-          </p>
+          <div class="alert alert-primary" role="alert">
+            <div>
+              <span
+                class="material-symbols-outlined"
+                style="vertical-align: middle"
+              >
+                info
+              </span>
+              Estos datos son obtenidos en base a una petición de información
+              presente en el <strong>WS de integración de Spireon</strong>, para
+              ser usado en el
+              <strong>registro manual de los dispositivos en CC</strong> por
+              parte del <strong>interesado</strong>.
+            </div>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <div>
+              <span
+                class="material-symbols-outlined"
+                style="vertical-align: middle"
+              >
+                warning
+              </span>
+              Ingeniería
+              <strong>no cuenta con esta información directamente</strong>, debe
+              de ser <strong>obtenida por el interesado.</strong>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
